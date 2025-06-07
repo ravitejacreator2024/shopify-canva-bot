@@ -1,0 +1,17 @@
+{
+  "name": "shopify-canva-bot",
+  "version": "0.1.0",
+  "description": "Pulls Shopify orders → Google Sheet and (optionally) duplicates a Canva template",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@shopify/shopify-api": "^12.4.0",
+    "dotenv": "^16.4.5",
+    "googleapis": "^132.0.0",
+    "puppeteer": "^22.10.0",
+    "luxon": "^3.4.4"
+  }
+}
